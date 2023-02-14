@@ -1,0 +1,198 @@
+.content_profile {
+  display: flex;
+}
+
+
+.left_bar {
+  width: 286px;
+  border-radius: 13px;
+  .about {
+    height: 220px;
+    padding: 24px;
+    border-radius: 13px 13px 0 0;
+    background: white;
+    margin-bottom: 2px;
+    h5 {
+      margin-bottom: 16px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 15px;
+      color: #a3abb1;
+    }
+  }
+}
+
+.item1 {
+  background: white;
+  border-radius: 0 0 13px 13px;
+  margin-bottom: 16px;
+  padding-top: 16px;
+  div {
+    padding: 0px 19px 16px;
+    img {
+      margin-right: 16px;
+    }
+    span {
+      vertical-align: top;
+    }
+  }
+}
+
+.item2 {
+  height: 434px;
+  background: white;
+  border-radius: 13px;
+  .header_p {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 0;
+    h5 {
+      margin: 0;
+    }
+    span {
+      color: #1e74fd;
+    }
+  }
+  .photos {
+    padding: 0 20px 0 20px;
+
+    img {
+      margin: 2px;
+      padding: 2px;
+      width: 118px;
+      height: 88.75px;
+      border-radius: 11px;
+    }
+  }
+  .b {
+    padding: 0px 16px 16px;
+    button {
+      width: 254px;
+      height: 44px;
+      background: #eeeeee;
+      padding: 8px;
+      border-radius: 26px;
+      font-weight: 500;
+    }
+  }
+}
+
+
+
+.right_bar {
+  width: 662px;
+  margin-left: 15px;
+}
+
+.new_post {
+  height: 210px;
+  background: white;
+  border-radius: 13px;
+  .input {
+    width: 613px;
+    height: 118px;
+    margin: 23px 23px 12px 23px;
+    border: 3px solid;
+    border-color: rgba(187, 187, 187, 0.753);
+    border-radius: 15px;
+    padding-top: 7px;
+    padding-left: 10px;
+    resize: none;
+  }
+}
+
+.selector {
+  display: flex;
+  justify-content: space-between;
+
+  .btns_left {
+    img {
+      margin-top: 0 auto;
+      margin-right: 10px;
+      margin-left: 24px;
+    }
+    input {
+      opacity: 0;
+    }
+    span {
+      position: relative;
+      bottom: 3px;
+    }
+  }
+
+  .btns {
+    margin-right: 23px;
+    position: relative;
+    bottom: 10px;
+  }
+}
+
+// file newconstractorpost
+.post {
+  margin-top: 16px;
+  height: 100%;
+  background: white;
+  border-radius: 13px;
+  .post_content {
+    padding: 22px;
+    // убрать ниже если поменя  размер шрифта
+    .post_header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 22px;
+      img {
+        width: 45px;
+        height: 43px;
+      }
+      span {
+        display: flex;
+        span{
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    .post_img {
+      width: 618px;
+      max-height: 412px;
+      margin-top: 10px;
+    }
+
+    .icon_bar {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      .t {
+        position: relative;
+        bottom: 4px;
+        margin: 8px;
+      }
+      .i {
+        position: relative;
+        bottom: 1px;
+      }
+      .ti {
+        width: 22px;
+        height: 23px;
+      }
+      .ts {
+        position: relative;
+        top: 2px;
+        width: 22px;
+        height: 23px;
+      }
+      .like {
+        width: 26px;
+        height: 25px;
+      }
+    }
+  }
+}

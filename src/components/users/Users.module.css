@@ -1,0 +1,43 @@
+.main_Block {
+  width: 100%;
+  background: #18102265;
+  height: 100%;
+}
+
+.pagination {
+  padding-top: 2px;
+  padding-left: 60px;
+}
+
+.users_Block {
+  display: flex;
+  margin-top: 5px;
+  border: 2px solid ;
+
+  border-radius: 25px;
+  background-color: rgb(146, 219, 201);
+  width: 460px;
+}
+
+.usersphoto {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+
+
+.user_Info {
+  width: 200px;
+  margin: 10px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.info {
+  margin-top: 10px;
+}
+
+.info_button {
+  margin-top: 24px;
+  margin-left: 35px;
+}

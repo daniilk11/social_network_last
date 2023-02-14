@@ -1,0 +1,44 @@
+.main_content {
+}
+
+.header {
+  margin: 0 auto;
+  width: 972px;
+  height: 94px;
+  background: #c4c4c4;
+  border-radius: 7px;
+}
+
+.items_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.item {
+  margin-bottom: 6px;
+  margin-right: 12px;
+  width: 470px;
+  height: 193px;
+  background: #c4c4c4;
+  border-radius: 7px;
+
+  //below its magic with hover
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.11);
+    transform: translateY(-2px);
+  }
+}
+
+.loader_community {
+  margin: 0 auto;
+  margin-top: 6px;
+  background: #f4c5c5;
+  border-radius: 12px;
+  width: 975px;
+  height: 62px;
+}

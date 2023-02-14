@@ -1,0 +1,50 @@
+.nav {
+  grid-area: n;
+  background-color: #d3d3d483;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-right: 13px;
+  
+}
+
+/* display : block  text-algin letter-space */
+
+.sidebar_up {
+padding: 18px;
+width: 240px;
+height: 335px;
+background:white;
+border-radius: 13px;
+}
+
+
+
+.sidebar_down {
+  padding: 18px;
+margin-top: 8px;
+width: 240px;
+height: 174px;
+background: white;
+border-radius: 13px;
+}
+
+
+
+.item a.active {
+  color: rgb(25, 106, 228);
+}
+
+.item a {
+  
+  color: #8c9399;
+}
+ 
+/* strange class change ava on profileinfo */
+.ava {
+  padding: 2px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+

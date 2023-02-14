@@ -1,0 +1,142 @@
+
+.dialogs {
+ 
+}
+.dialogsitems {
+  
+}
+ .active {
+  color :red;
+}
+
+
+
+
+
+.messenger_block {
+  display: flex;
+  
+}
+
+
+
+.message_box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1020px;
+  background: rgb(245, 245, 245);
+} 
+
+
+.newMessageBox {
+position: sticky;
+top: 90%;
+bottom: 0px;
+height: 75px;
+background: #e4e4e4;
+width: 100%;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.formM {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 18px;
+ margin-bottom: 18px;
+ 
+}
+
+.button{
+margin-left: 5px;
+margin-right: 4px;
+width: 40px;
+height: 40px;
+border-radius: 20px;
+border: none;
+}
+
+.messages_form {
+width: 100%;
+height: 39px;
+background: #82b8ff;
+border-radius: 19.5px;
+
+}
+
+.input_field{
+  padding: 8px;
+  width: 100%;
+  height: 40px;
+  background: #bfeead;
+  border-radius: 19.5px;
+  border: none;
+}
+
+.message_style {
+ 
+}
+
+.right_left_mes{
+    display: grid;
+    grid-template-columns: 1fr 6fr 9fr 6fr 1fr ;
+    grid-auto-rows: auto;
+}
+
+
+.NotMine_message{
+  grid-column-start: 3;
+  grid-column-end: 2;
+  padding: 8px;
+  background: #b6b9b1;
+  margin-top: 3px;
+  border-radius: 4px 18px 18px 18px;
+}
+
+
+.Mine_message{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  border-radius: 18px 18px 4px 18px;
+  padding: 8px;
+  background: #aada5d;
+  margin-top: 3px;
+}
+
+.time{
+padding-top: 20px;
+padding-left: 10px;
+}
+
+
+
+
+
+.friends_right_block {
+  top: 97px;
+  margin-left:14px;
+  width: 258px;
+  height: 500px;
+  background: #6edfcc;
+  border-radius: 12px;
+  
+  font-weight: 410;
+  padding: 20px;
+
+}
+
+.dialogs{
+padding-top: 20px;
+}
+.item {
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+

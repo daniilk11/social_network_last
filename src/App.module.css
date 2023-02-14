@@ -1,0 +1,33 @@
+
+
+
+.app_wrapper {
+  display: grid;
+  margin: 2;
+  height: 100%;
+  
+  width: 100%;
+  grid-template-areas: 
+  "h h h"
+  "n c c";
+  grid-template-rows: 91px;
+  grid-template-columns: 2fr 2fr 12fr;
+  /* grid-gap: 10px; */ 
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.app_wrapper_content{
+  grid-area: c;
+  padding: 14px;
+  height: 100%;
+  background-color: #d3d3d483;
+  
+  
+}
+input, textarea,button {
+        outline:none;
+        border: none;      
+}
+

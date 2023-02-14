@@ -1,0 +1,33 @@
+.Music {
+  width: 100%;
+  background: #252a36;
+  height: 1700px;
+  
+}
+
+.Music_block {
+  width: 1200px;
+  margin-left: 1%;
+  padding-top: 5px;
+  margin: 0 auto;
+  
+}
+
+.i {
+  margin-bottom: 2px;
+}
+
+.Music_content {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.Music_player{
+height: 144px;
+position: sticky;
+bottom: 0px;
+
+}
+.Music_player img{
+  width: 1200px;
+}

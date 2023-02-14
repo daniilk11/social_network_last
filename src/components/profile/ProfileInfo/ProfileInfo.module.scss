@@ -1,0 +1,83 @@
+.profile_header {
+  margin-bottom: 16px;
+
+  .profile_data {
+    height: 379px;
+    background: white;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .menu {
+    margin-top: 2px;
+
+    div {
+      border: none;
+      background: white;
+      height: 60px;
+      border-radius: 0 0 16px 16px;
+    }
+  }
+
+  .background {
+    //padding: 8px;
+    //background-color: black;
+  }
+  .pr {
+    display: flex;
+    justify-content: space-between;
+
+    .avatar_block {
+      display: flex;
+      margin-left: 33px;
+      margin-right: 370px;
+    }
+    .mainPhoto {
+      position: relative;
+      bottom: 185px;
+
+      width: 100px;
+      height: 100px;
+      border-radius: 100% 100%;
+    }
+    .name_status {
+      position: relative;
+      bottom: 140px;
+      margin-left: 21px;
+      color: whitesmoke;
+    }
+
+    .right_buttons {
+      position: relative;
+      bottom: 14px;
+      margin-right: 23px;
+
+      .but {
+        margin: 0;
+        height: 49px;
+        position: relative;
+        bottom: 19px;
+      }
+      img {
+        margin-left: 9px;
+      }
+    }
+  }
+}
+
+.foto {
+  width: 150px;
+}
+
+.bestfriendsbar {
+  background-color: rgb(128, 0, 107);
+  padding: 10px;
+}
+
+.bestfr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bestfriendsbar .text {
+  padding: 2px;
+}
