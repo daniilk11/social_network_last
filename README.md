@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# My study social network project build on React App with Redux
+
+This project was made in 2021, so here i have somewhere class components and other deprecated functions. Main goal was made structured and well organised react components. And i played with some css libraries.
+Also connected authorization through a third-party backend and api. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
